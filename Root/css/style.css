@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
+
+/* Configuraciòn estandar sitio*/
+* {
+    margin: 0%;
+    padding: 0%;
+/* quitar decorado de texto */
+    text-decoration: none;
+/* para quitar viñetas */
+    list-style: none;
+}
+
+/*Header Nav Menu*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050505;
+    padding: 20px;
+}
+
+
+ul.menuNav,
+ul.menuNav2 {
+display: flex;
+}
+
+li.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+li.menu a:hover{
+    color: orangered;
+}
+
+li:last-child{
+    background-color: #c50303;
+    border: 2px solid;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
+
+li:last-child:hover{
+    background: transparent;
+    border: 2px solid;
+    color: #c50303;
+}
+
+
+
+
+
+
+/* Main */
+
+/* index */
+
+.titulo {
+    background-color: rgb(189, 16, 16);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin-top:0.1%;
+    color: #fff;
+    font-size: 30px;
+font-family: 'Poppins', sans-serif;
+}
+
+div.backHorizontal{
+    background-color:#931F1A;
+    position: relative;
+    width: auto;
+    height: 10vw;
+    top: 10px;
+}
+
+.fotosplacas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #931F1A;
+    padding-top: 100px;
+}
+
+div.imagenProducto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+div.imagenProducto2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+img.placa {max-width: 300px;
+    max-height: 500px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: scale(1);
+    }
+
+img.placa img:hover{
+    transform: scale(1.4);
+}
+
+img.placa2 {max-width: 300px;
+        max-height: 500px; 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        transform: scale(1.3);
+        }
+
+
+h3.secundario{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Us.html */
+
+main.mainNosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img.banner1{
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 50px;
+    max-width: 400px;
+    justify-content: space-between;
+}
+
+img.banner2{
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 200px;
+    max-width: 400px;
+    justify-content: space-between;
+}
+
+.acercaDe{
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.textoUs{
+    font-size: 30px;
+    padding-top: 250px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.bloqueCentral{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    padding-left: 35%;
+    padding-top: 50px;
+}
+
+/* Productos */
+
+.tituloProductos {
+    background-color: rgb(189, 16, 16);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top:5%;
+    color: #fff;
+    font-size: 30px;
+ font-family: 'Poppins', sans-serif;
+}
+
+.galeriaProductos{
+    background-color: #050505;
+    display: grid;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+.placa1{
+    padding-top: 80%;
+}
+
+.placa2{
+    padding-top: 80%;
+}
+
+.placa3{
+    padding-top: 80%;
+}
+
+/* Preguntas Frecuentes */
+
+.preguntas{
+    background-color: rgb(189, 16, 16);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    color: #fff;
+    font-size: 30px;
+}
+
+.preguntasContenedor{
+    margin-top: 0px;
+    display: grid;
+    padding: 10vh;
+    grid-template-columns: 40% 20% 20%;
+    justify-content: space-around;
+    max-width: 700px;
+    max-height: 200px;
+    padding-left: 25%;
+}
+
+
+
+/* Contacto */
+
+h1.envianos{
+background-color: rgb(189, 16, 16);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top:5%;
+    color: #fff
+}
+
+.contenedorFormMap {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.form{
+    padding-top: 10%;
+    width: 30%;
+    height: 20%;
+}
+
+fieldset {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    font-size: 20px;
+}
+
+div.map{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+.formContact{
+    background-color: #fff;
+    width: 300px;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+}
+
+header.icono{
+   width: 100%;
+   background-color: #c50303;
+   overflow: hidden;
+   color: white;
+}
+
+.iconoSobre{
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    padding: 2.5rem;   
+}
+
+.contact{
+    padding: .8rem;
+    overflow: hidden;
+    color: gray;
+}
+
+.contact label, .contact input, .contact textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.contact label{
+    font-weight: 700;
+}
+
+.contact input:not([type='submit']), .contact textarea{
+    border: none;
+    border-bottom: 2px solid #c50303;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: gray;
+}
+
+.contact textarea{
+    min-height: 100px;
+}
+
+input[type='submit']{
+    padding: 10px;
+    border: none;
+    background-color: #c50303;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* Footer */
+div.contenedorNegro{
+    background-color:black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+footer {
+      padding-top: 100px;
+  }
+
+div.redes {
+      padding-left: 20px;
+      justify-content: space-between;
+}
+
+
+.redes2{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 5px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.redes2:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
